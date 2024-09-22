@@ -23,7 +23,7 @@ A simple and effective habit tracking app built with Kotlin and Jetpack Compose.
 *   **Programming Language:** Kotlin
 *   **UI Framework:** Jetpack Compose
 *   **Architecture:** MVI (Model-View-Intent)
-*   **Data Storage:** [Choose one and explain your choice below]
+*   **Data Storage:** 
     *   Room Persistence Library
 *   **Dependency Injection:** Hilt
 *   **ViewModel Framework:**  Orbit MVI
