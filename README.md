@@ -1,5 +1,4 @@
 # Trackling
-My own little habit tracking app.
 
 ## Description
 
@@ -23,13 +22,11 @@ A simple and effective habit tracking app built with Kotlin and Jetpack Compose.
 
 *   **Programming Language:** Kotlin
 *   **UI Framework:** Jetpack Compose
-*   **Architecture:** MVVM (Model-View-ViewModel)
+*   **Architecture:** MVI (Model-View-Intent)
 *   **Data Storage:** [Choose one and explain your choice below]
     *   Room Persistence Library
-    *   SharedPreferences (for simpler data)
-    *   DataStore (for type-safety and coroutine support)
-*   **Dependency Injection:** Hilt (recommended for Android)
-*   **ViewModel Framework:**  ViewModel from Jetpack Lifecycle
+*   **Dependency Injection:** Hilt
+*   **ViewModel Framework:**  Orbit MVI
 
 ## Data Storage Considerations
 
