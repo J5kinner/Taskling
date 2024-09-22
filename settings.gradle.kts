@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Trackling"
 include(":app")
- 
+include(":features")
