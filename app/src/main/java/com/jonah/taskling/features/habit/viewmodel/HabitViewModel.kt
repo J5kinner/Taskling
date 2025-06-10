@@ -1,9 +1,9 @@
-package com.jonah.trackling.features.habit.viewmodel
+package com.jonah.taskling.features.habit.viewmodel
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
-import com.jonah.trackling.features.habit.data.Habit
-import com.jonah.trackling.features.habit.data.HabitDao
+import com.jonah.taskling.features.habit.data.Habit
+import com.jonah.taskling.features.habit.data.HabitDao
 import dagger.hilt.android.lifecycle.HiltViewModel
 import org.orbitmvi.orbit.ContainerHost
 import org.orbitmvi.orbit.viewmodel.container

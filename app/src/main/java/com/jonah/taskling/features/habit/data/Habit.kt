@@ -1,4 +1,4 @@
-package com.jonah.trackling.features.habit.data
+package com.jonah.taskling.features.habit.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

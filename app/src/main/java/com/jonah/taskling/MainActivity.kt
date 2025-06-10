@@ -1,36 +1,34 @@
-package com.jonah.trackling
+package com.jonah.taskling
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.Scaffold
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.jonah.trackling.features.habit.presentation.HabitListScreen
-import com.jonah.trackling.features.habit.viewmodel.HabitViewModel
-import com.jonah.trackling.ui.theme.TracklingTheme
+import com.jonah.taskling.features.habit.presentation.HabitListScreen
+import com.jonah.taskling.features.habit.viewmodel.HabitViewModel
+import com.jonah.taskling.ui.theme.TasklingTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
-    private val viewModel by viewModels<HabitViewModel>()
+    private val habitViewModel: HabitViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContent {
-            TracklingTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    HabitListScreen(viewModel, paddingValues = innerPadding)
-//                    Greeting(
-//                        name = "Android",
-//                        modifier = Modifier.padding(innerPadding)
-//                    )
+            TasklingTheme {
+                Surface(
+                    modifier = Modifier.fillMaxSize(),
+                    color = MaterialTheme.colorScheme.background
+                ) {
+                    HabitListScreen(habitViewModel)
                 }
             }
         }
@@ -48,7 +46,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    TracklingTheme {
+    TasklingTheme {
         Greeting("Android")
     }
 }

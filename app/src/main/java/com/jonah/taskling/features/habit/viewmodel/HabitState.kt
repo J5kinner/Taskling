@@ -1,8 +1,8 @@
-package com.jonah.trackling.features.habit.viewmodel
+package com.jonah.taskling.features.habit.viewmodel
 
-import com.jonah.trackling.features.habit.data.Habit
+import com.jonah.taskling.features.habit.data.Habit
 
-data class HabitState (
+data class HabitState(
     val habits: List<Habit> = emptyList(),
     val isLoading: Boolean = false
 )

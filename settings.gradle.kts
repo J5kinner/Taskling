@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Trackling"
+rootProject.name = "Taskling"
 include(":app")
 include(":features")

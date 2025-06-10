@@ -1,4 +1,4 @@
-package com.jonah.trackling.features.habit.presentation
+package com.jonah.taskling.features.habit.presentation
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -17,7 +17,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.jonah.trackling.features.habit.viewmodel.HabitViewModel
+import com.jonah.taskling.features.habit.viewmodel.HabitViewModel
 
 @Composable
 fun HabitAddScreen(viewModel: HabitViewModel) {

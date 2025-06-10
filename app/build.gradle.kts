@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.jonah.trackling"
+    namespace = "com.jonah.taskling"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.jonah.trackling"
+        applicationId = "com.jonah.taskling"
         minSdk = 30
         targetSdk = 35
         versionCode = 1

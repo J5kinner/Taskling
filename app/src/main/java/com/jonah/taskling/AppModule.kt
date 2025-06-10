@@ -1,10 +1,9 @@
-package com.jonah.trackling
+package com.jonah.taskling
 
 import android.app.Application
 import androidx.room.Room
-import com.jonah.trackling.features.habit.data.HabitDao
-import com.jonah.trackling.features.habit.data.HabitDatabase
-import com.jonah.trackling.features.habit.viewmodel.HabitViewModel
+import com.jonah.taskling.features.habit.data.HabitDao
+import com.jonah.taskling.features.habit.data.HabitDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

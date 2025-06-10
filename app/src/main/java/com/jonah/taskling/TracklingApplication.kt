@@ -1,7 +1,7 @@
-package com.jonah.trackling
+package com.jonah.taskling
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class TracklingApplication : Application()
+class TasklingApplication : Application()
